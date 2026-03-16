@@ -10,7 +10,7 @@
 
 | 变量 | 说明 | 默认值 |
 |------|------|--------|
-| `VAULT_DIR` | Obsidian Inbox 目录的绝对路径 | `/mnt/e/KnowledgeBase/Inbox` |
+| `VAULT_DIR` | Obsidian Inbox 目录的绝对路径 | 必填，例如 `/mnt/e/KnowledgeBase/Inbox` |
 | `TOPIC_NAME` | 触发爬虫的 Telegram 话题名称 | `博览群书` |
 | `OLLAMA_URL` | Ollama 服务地址（AI 打标签用，可选） | `http://localhost:11435` |
 | `MODEL` | Ollama 模型名称（可选） | `minimax-m2.5:cloud` |
