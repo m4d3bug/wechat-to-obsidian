@@ -4,6 +4,18 @@
 
 ---
 
+## 一句话安装
+
+在 OpenClaw 对话框中发送：
+
+```
+帮我安装 wechat-to-obsidian：https://raw.githubusercontent.com/m4d3bug/wechat-to-obsidian/main/install.md
+```
+
+Agent 会自动询问你的 Obsidian 路径和话题名称，完成全部配置。
+
+---
+
 ## 效果
 
 ```
