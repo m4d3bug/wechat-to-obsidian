@@ -1,5 +1,5 @@
 ---
-name: knowledge-base
+name: wechat-to-obsidian
 description: >
   知识库管理：当用户在"博览群书"话题发送微信文章链接（mp.weixin.qq.com）时，
   自动爬取文章内容，用本地大模型整理成卡片型笔记，保存到 Obsidian Inbox。
@@ -22,7 +22,7 @@ description: >
 ## 调用方式
 
 ```bash
-/root/.openclaw/workspace/skills/knowledge-base/scripts/fetch_and_save.sh <url>
+/root/.openclaw/workspace/skills/wechat-to-obsidian/scripts/fetch_and_save.sh <url>
 ```
 
 脚本输出最后一行格式为 `SAVED:/path/to/file.md`，提取路径告知用户。
